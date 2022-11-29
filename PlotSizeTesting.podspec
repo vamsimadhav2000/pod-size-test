@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'PlotSizeTesting'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.summary      = "SDK can be used for capturing insights for the right user at the right time"
     s.description  = <<-DESC
                     SDK can be used for capturing insights for the right user at the right time
