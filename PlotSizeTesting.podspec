@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name         = 'PlotSizeTesting'
     s.version      = '1.0.0'
-    s.summary      = "Plot Size SDK'
+    s.summary      = "SDK can be used for capturing insights for the right user at the right time"
     s.description  = <<-DESC
-                    Plot Size SDK
+                    SDK can be used for capturing insights for the right user at the right time
                     DESC
     s.homepage     = 'https://github.com/vamsimadhav2000/pod-size-test'
-    s.author       = 'PlotSizeTest'
+    s.author       = 'PlotlSizeTesting'
     s.platform     = :ios
     s.swift_version = '5.4'
     s.license = { :type => 'Copyright', :text => <<-LICENSE
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 	}
     s.ios.deployment_target  = '9.0'
     s.source       = {
-                        :git => "https://github.com/vamsimadhav2000/pod-size-test",
+                        :git => "https://github.com/vamsimadhav2000/pod-size-test.git",
 			:tag => "#{s.version}"
                      }
     s.vendored_frameworks = 'Plotline.xcframework'
